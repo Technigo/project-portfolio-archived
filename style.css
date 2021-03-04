@@ -341,6 +341,10 @@ body {
     width: 30%;
     height:auto;
 }
+.skills-box > ul {
+    list-style: none;
+    padding:0;
+}
 
 .skills-box > li {
     list-style: none;
