@@ -98,15 +98,15 @@ body {
     display: inline-block;
     width: 50px;
     height: 5px;
-    border-top: 3px solid #00917c;
+    border-top: 3px solid #008571;
 }  
 
 .red-dot {
     display: inline-block;
     width: 10px;
     height: 10px;
-    border: 2px solid #00917c;
-    background-color: #00917c;
+    border: 2px solid #008571;
+    background-color: #008571;
     margin-right: 10px;
     margin-left: -5px;
     border-radius: 50%;
@@ -131,12 +131,11 @@ body {
 .tech-header {
     color: white;
     font-family: 'Roboto', sans-serif;
-    background-color:#00917c;
+    background-color:#008571;
     text-align: center;
     padding: 5px;
     max-width: 80px;
     margin: 20px auto;
-    border-radius: 10px;
 }
 
 .tech-text {
@@ -146,7 +145,7 @@ body {
 }
 
 .highlighted-text {
-    color:#00917c;
+    color:#008571;
     font-weight: bold;
 }
 
@@ -158,19 +157,17 @@ body {
     background-color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
     align-items: center;
-    /* max-width: 767px; */
     padding: 30px 0 30px 0;
 }
 
 .featured-projects-header {
     color: white;
     font-family: 'Roboto', sans-serif;
-    background-color:#00917c;
+    background-color:#008571;
     text-align: center;
     padding: 5px;
     max-width: 280px;
     margin: 20px auto;
-    border-radius: 10px;
 }
 
 .project-card {
@@ -223,7 +220,7 @@ body {
 }
 
 .project-title {
-    color: #00917c;
+    color: #008571;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     margin: 15px 0 0 0;
@@ -260,18 +257,16 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    /* max-width: 767px; */
     padding: 30px 0 30px 0;
 }
 
 .other-projects-header {
     color: white;
-    background-color:#00917c;
+    background-color:#008571;
     text-align: center;
     padding: 5px;
     max-width: 240px;
     margin: 20px auto;
-    border-radius: 10px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -305,11 +300,10 @@ body {
 
 .my-thoughts-header {
     color: white;
-    background-color:#00917c;
+    background-color:#008571;
     padding: 5px;
     max-width: 240px;
     margin: 20px auto;
-    border-radius: 10px;
 }
 
 .my-thoughts-text {
@@ -327,18 +321,17 @@ body {
     margin-bottom: 50px;
     flex-wrap: wrap;
     padding: 30px 0 30px 0;
-
 }
 
 .skills-header {
     color: white;
-    background-color:#00917c;
+    background-color:#008571;
     text-align: center;
     padding: 5px;
     max-width: 240px;
     margin: 20px auto;
-    border-radius: 10px;
 }
+
 .skills-container {
     display: flex;
     flex-direction: row;
@@ -351,11 +344,11 @@ body {
     flex-direction: column;
     text-align: center;
     width: 30%;
-    height:auto;
+    height: auto;
 }
 .skills-box > ul {
     list-style: none;
-    padding:0;
+    padding: 0;
 }
 
 .skills-box > li {
@@ -367,7 +360,6 @@ body {
     color:#00917c;
     font-family: 'Roboto', sans-serif;
 }
-
 
 /* Styling for more section */
 .for-more-section {
@@ -381,11 +373,10 @@ body {
 .for-more-header {
     color: white;
     text-align: center;
-    background-color:#00917c;
+    background-color:#008571;
     padding: 5px;
     max-width: 240px;
     margin: 20px auto;
-    border-radius: 10px;
 }
 
 .for-more-links {
@@ -402,7 +393,7 @@ body {
 
 /* Styling Footer */
 .footer {
-    background-color: #00917c;
+    background-color: #008571;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     padding: 30px 0 30px 0;
