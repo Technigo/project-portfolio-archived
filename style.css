@@ -8,8 +8,9 @@ body {
 .header {
     background-image: url("./background2.jpg");
     background-repeat: no-repeat;
+    opacity: 95%;
     background-size: cover;
-    height: 520px;
+    height: 460px;
     width: 100%;
     color: white;
     position: relative;
@@ -18,13 +19,9 @@ body {
 
 .icon-links-container {
     display: flex;
-    /* justify-content: flex-end;  */
-    /* padding: 30px 30px; */
     position: absolute;
     top: 48px;
     right: 50px;
-    width: 130px;
-    height: 40px;
 }
 
 .icon-links-header {
@@ -33,7 +30,7 @@ body {
 }
 
 .icon-header {
-    width: 100%;
+    width: 40px;
 }
 
 .header-text-container {
@@ -49,9 +46,6 @@ body {
 .name-class {
     display: flex;
     flex-direction: row;
-    /* position: absolute;
-    top: 20%;
-    left: 18%;   */
     font-size: 16px;
     align-items: center;
 }
@@ -74,9 +68,6 @@ body {
 }
 
 .job-title-1 {
-    /* position: absolute;
-    top: 20%;
-    left: 18%;  */
     font-size: 48px;
     font-weight: 700;
     line-height: 48px;
@@ -84,9 +75,6 @@ body {
 }
 
 .job-title-2 {
-    /* position: absolute;
-    top: 32%;
-    left: 18%;   */
     font-size: 48px;
     font-weight: 700;
     line-height: 48px;
@@ -94,20 +82,18 @@ body {
 }
 
 .previous-job-title {
-    /* position: absolute;
-    top: 52%;
-    left: 18%;  */
     font-size: 20px;
     margin: 10px 0 0 0;
 }
 
 .profile-picture {
     width: 180px;
-    height: auto;
+    height: 180px;
+    object-fit: cover;
     border-radius: 50%;
     border: 2px solid white;
     position: absolute;
-    top: 356px;
+    top: 300px;
     right: 50px;
 }
 
@@ -153,7 +139,6 @@ body {
     font-size: 16px;
     font-weight: 300;
     text-align: center;
-    /* max-width: 767px; */
     padding: 30px 0 30px 0;
 }
 
@@ -372,9 +357,10 @@ body {
 .skills-box {
     flex-direction: column;
     text-align: center;
-    width: 30%;
+    width: 35%;
     height: auto;
 }
+
 .skills-box > ul {
     list-style: none;
     padding: 0;
@@ -423,7 +409,6 @@ body {
     color: black;
 }
 
-
 /* Styling Footer */
 .footer {
     background-color: #008571;
@@ -450,13 +435,18 @@ body {
 
 /*For tablet*/
 @media (min-width: 768px) and (max-width: 991px){
+    .header {
+        height: 550px;
+    }
+
     .icon-links-container {
         top: 70px;
         right: 70px;
     }
     
     .icon-header {
-        width: 100%;
+        width: 64px;
+        height: 64px;
     }
     
     .header-text-container {
@@ -481,7 +471,9 @@ body {
 
     .profile-picture {
         width: 220px;
-        top: 300px;
+        height: 220px;
+        object-fit: cover;
+        top: 350px;
         right: 70px;
     }
     
@@ -498,18 +490,31 @@ body {
     .project-img {
         width: 100%;
         height: 200px;
+        object-fit: cover;
+    }
+
+    .skills-container {
+        margin: 20px 40px 0 40px;
+    }
+
+    .skills-box {
+        width: 30%;
     }
 }
 
 /* For desktop */
 @media (min-width: 992px) {
+    .header {
+        height: 620px;
+    }
+
     .icon-links-container {
         top: 70px;
         right: 100px;
     }
     
     .icon-header {
-        width: 100%;
+        width: 64px;
     }
     
     .header-text-container {
@@ -534,7 +539,9 @@ body {
     
     .profile-picture {
         width: 250px;
-        top: 280px;
+        height: 250px;
+        object-fit: cover;
+        top: 400px;
         right: 100px;
     }
 
@@ -556,6 +563,10 @@ body {
 
     .skills-container {
         margin: 20px 40px 0 40px;
+    }
+
+    .skills-box {
+        width: 30%;
     }
 }
 
