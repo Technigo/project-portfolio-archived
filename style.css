@@ -431,6 +431,11 @@ body {
     color: black;
 }
 
+.tel-nr > a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Media Queries */
 
 /*For tablet*/
