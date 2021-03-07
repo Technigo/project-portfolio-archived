@@ -129,8 +129,10 @@ body {
 
 .summary-section-text {
     font-weight: 300;
+    font-size: 20px;
     width: 70%;
     margin: 0 auto;
+    line-height: 25px;
 }
 
 /* Styling tech section */
@@ -184,6 +186,11 @@ body {
     margin: 20px auto;
 }
 
+.project-card-link {
+    text-decoration: none;
+    color: black;
+}
+
 .project-card {
     display: flex;
     flex-direction: column;
@@ -191,11 +198,6 @@ body {
     height: auto;
     font-weight: 300;
     margin: 30px auto;
-}
-
-.project-card-link {
-    text-decoration: none;
-    color: black;
 }
 
 .project-card-img-text {
