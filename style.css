@@ -29,6 +29,10 @@ body {
     margin-right: 5px;
 }
 
+.icon-links-header:hover {
+    transform: scale(1.1);
+}
+
 .icon-header {
     width: 40px;
 }
@@ -407,6 +411,10 @@ body {
     margin: 30px;
 }
 
+.icon-links:hover {
+    transform: scale(1.1);
+}
+
 .for-more-icons {
     color: black;
 }
@@ -488,6 +496,7 @@ body {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .project-card {
         width: 300px;
@@ -510,7 +519,7 @@ body {
 }
 
 /* For desktop */
-@media (min-width: 992px) {
+@media (min-width: 992px){
     .header {
         height: 620px;
     }
@@ -556,6 +565,7 @@ body {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .project-card {
@@ -565,7 +575,8 @@ body {
     
     .project-img {
         width: 100%;
-        height: 250px;
+        height: 300px;
+        object-fit: cover;
     }
 
     .skills-container {
