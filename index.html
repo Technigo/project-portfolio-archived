@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Sofia Arzt Wallén</title>
+    <title>Sofia Arzt</title>
 </head>
 <body>
     <header class="header">
@@ -23,7 +23,7 @@
         <div class="header-text-container">
             <div class="name-class">
                 <p class="portfolio">PORTFOLIO: </p>
-                <p class="sofia-name">SOFIA ARZT WALLÉN</p>
+                <p class="sofia-name">SOFIA ARZT</p>
             </div>
             <h1 class="job-title-1">frontend</h1>
             <h1 class="job-title-2">developer</h1>
@@ -47,17 +47,62 @@
     <section class="tech-section">
         <h2 class="tech-header">TECH</h2>
         <p class="tech-text">
-            HTML 5, CSS 3, Flexbox, Responsive Design, <span class="highlighted-text">JavaScript ES6</span>, API:s, Unit Testing, Web Accessibility, Node.js, Mob-programming, Pair-programming, <span class="highlighted-text">GitHub</span>.
+            HTML 5, CSS 3, Flexbox, Responsive Design, <span class="highlighted-text">JavaScript ES6</span>, API:s, Unit Testing, Web Accessibility, <span class="highlighted-text">React</span>, Redux, Node.js, Mob-programming, Pair-programming, <span class="highlighted-text">GitHub</span>.
             
         </p>
         <p class="tech-text">
-            Upcoming: <span class="highlighted-text">React</span>, Redux, Mongo DB, Figma. 
+            Upcoming: Mongo DB, Figma. 
         </p>
     </section>
     
     <section class="featured-projects-container">
         <h2 class="featured-projects-header">FEATURED PROJECTS</h2>
         <div class="card-container">  
+            <a aria-label="Link to my project labyrinth on GitHub" class="project-card-link" href="https://github.com/Sofarz/project-labyrinth" target="_blank">
+                <div  class="project-card">
+                    <div class="project-card-img-text">
+                        <img class="project-img" src="./labyrinth.png" alt="Labyrinth game front page">
+                        <div aria-hidden="true" class="img-overlay">
+                            <p class="img-overlay-text">THE LABYRINTH</p>
+                        </div>
+                    </div>
+                    <h2 class="project-title">PROJECT LABYRINTH</h2>
+                    <p class="project-text"> Labyrinth game in the form of a text based adventure. 
+                        <span class="arrow"> >> </span>
+                    </p>
+                    <div class="technologies">
+                        <p aria-hidden="true">React.js</p>
+                        <p aria-hidden="true">Redux</p>
+                        <p aria-hidden="true">Styled components</p>
+                        <p aria-hidden="true">API</p>
+                        <p aria-hidden="true">Thunks</p>
+                        <p aria-hidden="true">Pair-programming</p>
+                    </div>
+                </div>
+            </a>
+
+            <a aria-label="Link to my project todos on GitHub" class="project-card-link" href="https://github.com/Sofarz/project-todos" target="_blank">
+                <div  class="project-card">
+                    <div class="project-card-img-text">
+                        <img class="project-img" src="./project-todos.png" alt="Project todos front page">
+                        <div aria-hidden="true" class="img-overlay">
+                            <p class="img-overlay-text">TO DO APP</p>
+                        </div>
+                    </div>
+                    <h2 class="project-title">TO DO APP</h2>
+                    <p class="project-text"> To do-app built in React Redux. 
+                        <span class="arrow"> >> </span>
+                    </p>
+                    <div class="technologies">
+                        <p aria-hidden="true">HTML 5</p>
+                        <p aria-hidden="true">CSS 3</p>
+                        <p aria-hidden="true">JavaScript ES6</p>
+                        <p aria-hidden="true">React.js</p>
+                        <p aria-hidden="true">Redux</p>
+                    </div>
+                </div>
+            </a>
+
             <a aria-label="Link to Happy Thought project on GitHub" class="project-card-link" href="https://github.com/Sofarz/project-happy-thoughts" target="_blank">
                 <div  class="project-card">
                     <div class="project-card-img-text">
@@ -150,6 +195,37 @@
     <section class="other-projects">
         <h2 class="other-projects-header">OTHER PROJECTS</h2>
         <div class="other-projects-list">
+            <a aria-label="Link to project React Native on GitHub" class="projects-list" href="https://github.com/Sofarz/project-react-native-app" target="_blank">
+                <p><span class="project-title">REACT NATIVE APP</span> 
+                    Mobile app showing random information about cats and dogs. Built using React Native. 
+                    <span class="arrow"> >> </span>
+                </p>
+                <div class="technologies">
+                    <p aria-hidden="true">React Native</p>
+                    <p aria-hidden="true">Styled components</p>
+                    <p aria-hidden="true">Expo</p>
+                    <p aria-hidden="true">API</p>
+                    <p aria-hidden="true">Navigation</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="other-projects-list">
+            <a aria-label="Link to project movies on GitHub" class="projects-list" href="https://github.com/Sofarz/project-movies" target="_blank">
+                <p><span class="project-title">PROJECT MOVIES</span> 
+                    Multi-page application using React router.
+                    <span class="arrow"> >> </span>
+                </p>
+                <div class="technologies">
+                    <p aria-hidden="true">React.js</p>
+                    <p aria-hidden="true">React router</p>
+                    <p aria-hidden="true">API</p>
+                    <p aria-hidden="true">React hooks</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="other-projects-list">
             <a aria-label="Link to Survey project on GitHub" class="projects-list" href="https://github.com/Sofarz/project-survey" target="_blank">
                 <p><span class="project-title">PROJECT SURVEY</span> 
                     Created a Survey form in React. The main focus was to practise React state and controlled forms.
@@ -225,6 +301,8 @@
                 <ul tabindex="0">
                     <li>HTML 5</li>
                     <li>CSS 3</li>
+                    <li>React.js</li>
+                    <li>Redux</li>
                     <li>Flexbox</li>
                     <li>JavaScript ES6</li>
                     <li>APIs</li>
@@ -252,9 +330,8 @@
             <div class="skills-box">
                 <h3 class="skills-category">UPCOMING</h3>
                 <ul tabindex="0">
-                    <li>React</li>
                     <li>Mongo DB</li>
-                    <li>Redux</li>
+                    <li>Figma</li>
                 </ul>
             </div>
         </div>
@@ -279,8 +356,8 @@
     <footer class="footer">
         <p aria-labelledby="contact-information" class="footer-contact">CONTACT</p>
         <address id="contact-information" class="address-section">
-           <p>Sofia Arzt Wallén</p>
-           <a aria-label="Link to send email" href="mailto:sofia.wallen@gmail.com">sofia.wallen@gmail.com</a>
+           <p>Sofia Arzt</p>
+           <a aria-label="Link to send email" href="mailto:sofia.wallen@gmail.com">sofia.wa@me.com</a>
            <p class="tel-nr">
                <a href="tel:0733816663" aria-label="Phone number 0 7 3. 3 8 1. 6 6. 6 3.">073 381 66 63</a>
             </p>
