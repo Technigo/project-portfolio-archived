@@ -1,0 +1,66 @@
+body{
+scroll-behavior: smooth;
+margin: 0;
+
+}
+
+.introduction{
+    background-color: blue;
+    
+
+}
+
+.projects-section:nth-child(2n) {
+    background-color: #f4f4f4;
+}
+
+.container {
+width: 320px;
+margin: 0 auto;
+}
+
+.project-heading-container {
+    display:flex;
+    justify-content: center;
+}
+
+.project-heading {
+    background-color: #fa382f;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3px;
+}
+
+image-container {
+    position:relative;
+}
+
+.overlay {
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(156, 166, 197, 0.5);
+}
+
+.image {
+    width: 100%;
+    display:block;
+}
+
+
+.about-me{
+    background-color: blueviolet;
+}
+
+@media (min-width: 760px) {
+    
+    .container {
+        width: 320px;
+        margin: auto;
+        }
+
+
+}
